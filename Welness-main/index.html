@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aurora People</title>
+    <meta name="theme-color" content="#0c1022" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="aurora" aria-hidden="true"></div>
+
+    <header class="app-header">
+      <div class="container header-content">
+        <div class="brand" role="banner">
+          <div class="logo">LOGO</div>
+          <span class="brand-tag">since 2025</span>
+        </div>
+        <nav class="header-actions" aria-label="Primary">
+          <button class="icon-btn" title="Help" aria-label="Help">❔</button>
+          <button class="icon-btn" title="Notifications" aria-label="Notifications">🔔</button>
+          <button class="avatar" title="Profile" aria-label="Profile">👤</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container" id="app-root" tabindex="-1"></main>
+
+    <div id="overlay-root"></div>
+    <div id="toast-root" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
